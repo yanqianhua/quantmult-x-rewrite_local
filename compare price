@@ -1,3 +1,6 @@
+hostname = www.zhihu.com, zhuanlan.zhihu.com,*.googlevideo.com,suying456.com,api.weibo.cn, pay.sc.weibo.com, api.m.jd.com, trade-acs.m.taobao.com, *.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com, wx.10086.cn, www.zhihu.com,zhuanlan.zhihu.com,weixin110.qq,jdjoy.jd.com,draw.jdfcloud.com,mqqapi.reader.qq.com,*.tiktokv.com, *.byteoversea.com, *.musical.ly, *.snssdk.com
+
+
 #京东历史比价 (by yichahucha)
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js
 
